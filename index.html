@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" >
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" >
+    <!--SEO Tags-->
+    <meta name="description" content="Freelance web-designer and developer based in London, UK. I design & build custom website solutions that help your business grow. I help you increase conversion and performance in every possible way.">
+    <meta name="author" content="Annie Indreiten">
+    <!-- OG Meta Tags to improve the way the post looks when you share the page on Facebook, Twitter, LinkedIn -->
+    <meta property="og:site_name" content=""> <!-- website name -->
+    <meta property="og:site" content=""> <!-- website link -->
+    <meta property="og:title" content=""> <!-- title shown in the actual shared post -->
+    <meta property="og:description" content=""> <!-- description shown in the actual shared post -->
+    <meta property="og:image" content=""> <!-- image link, make sure it's jpg -->
+    <meta property="og:url" content=""> <!-- where do you want your post to link to -->
+    <meta name="twitter:card" content="summary_large_image"> <!-- to have large image post format in Twitter -->
+    <!--Webpage Title-->
+    <title>Annie Indreiten | Freelance web-designer and front-end developer | London, UK</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" >
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin >
+    <link
+      href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Public+Sans:wght@100;400;500;600;700&display=swap"
+      rel="stylesheet"
+    >
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css"
+    >
+    <!--Favicon-->
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="/favicon_io/site.webmanifest">
+    
+
+    <link rel="stylesheet" href="css/style.css" >
+  </head>
+  <body>
+    <header class="header">
+      <div class="nav-mobile-container">
+        <div class="nav-mobile split">
+          <div class="nav-left split">
+            <a href="index.html" class="logo">annie indreiten</a>
+            <p class="nav-text">Designer & Developer</p>
+          </div>
+          <!--Hamburger for mobile-->
+          <button aria-label="Open navigation" class="open-nav">&#9776;</button>
+        </div>
+
+        <nav class="menu-nav-mobile">
+          <button aria-label="Close navigation" class="close-nav">
+            &times;
+          </button>
+          <ul class="list-inside">
+            <li><a href="index.html" class="nav-link">Home</a></li>
+            <li id="js-about">
+              <a href="#about" class="nav-link">About</a>
+            </li>
+            <li id="js-services"><a href="#services" class="nav-link">Services</a></li>
+            <li id="js-work"><a href="#work" class="nav-link">Work</a></li>
+            <li id="js-contact"><a href="contact.html" class="inside-btn btn">Book A Free Call</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+      <!--Nav on larger screens-->
+      <nav class="nav-large">
+        <a href="index.html" class="logo">annie indreiten</a>
+        <ul>
+          <li>
+            <a href="#services" class="nav-item">Services</a>
+          </li>
+          <li>
+            <a href="#work" class="nav-item">Work</a>
+          </li>
+          <li>
+            <a href="#about" class="nav-item">About</a>
+          </li>
+          <li>
+            <a href="contact.html" class="nav-btn">Book A Free Call</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main-container">
+      <!--aside-->
+      <aside>
+        <div class="sidebar split-column">
+          <a class="logo-sidebar" href="index.html">annie<span>indreiten</span> </a>
+          <figure>
+            <img src="images/img-hero.jpg"
+              alt="Freelance, web designer and developer, Annie Indreiten"
+              srcset="images/img-hero.jpg 1x,
+              images/img-hero@2x.jpg 2x,
+              images/img-hero@3x.jpg 3x"
+              class="sidebar-img">
+          </figure>
+          <div class="sidebar-content split-column">
+            <p>Freelance Web designer and front-end developer</p>
+            <!--<div class="socials">
+              <a href="https://www.linkedin.com/in/annieindreitendeveloper/"
+              target="_blank"
+              rel="noreferrer"><i class="bi bi-linkedin"></i></a>
+              <a href="https://github.com/AnnieCat73"
+              target="_blank"
+              rel="noreferrer"
+              ><i class="bi bi-github"></i></a>
+              <a href="https://twitter.com/annie_indreiten/" 
+              target="_blank"
+              rel="noreferrer"><i class="bi bi-twitter"></i></a>
+            </div>-->
+            <a href="contact.html" class="sidebar-cta">Get In Touch</a>
+          </div>
+        </div>
+      </aside>
+      <!--main-->
+      <main>
+        <div class="content-container">
+          <!--Hero-->
+          <section class="hero reveal">
+            <div class="headings">
+              <p class="hero-subheading repo-sub">
+                Freelance Web Designer & Developer
+              </p>
+              <p class="freelance subheading">Web Designer & Developer</p>
+              <h1>Grow your business online with Annie</h1>
+              <p class="large-text">Get the results you want from your website. I provide custom website solutions that boost success, performance, and conversions.</p>
+            </div>
+            <figure>
+              <img
+                src="images/img-hero.jpg"
+                alt="Freelance, web designer and developer, Annie Indreiten"
+                srcset="images/img-hero.jpg 1x,
+                images/img-hero@2x.jpg 2x,
+                images/img-hero@3x.jpg 3x"
+                class="hero-img"
+              >
+            </figure>
+            <div class="hero-btns">
+              <a href="#work" class="btn btn-primary">Transform your website</a>
+              <!--<a href="#about" class="btn btn-secondary">Get to know me</a>-->
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--Why work with me-->
+          <section class="why">
+            <div class="section-headings">
+              <p class="section-subtitle">Why work with me?</p>
+              <h2 class="heading-mobile">One task, one goal, and one happy client at a time</h2>
+              <h2 class="heading-desktop">One task, one goal, and one happy client at a time
+              </h2>
+            </div>
+            <div class="why-content">
+              <div class="why-facts flow-content-medium">
+                <p class="subtitle">I can create a high-Performing website that is:</p>
+                <div class="ticks-container">
+                  <div class="tick">
+                    <img
+                      src="images/mdi_tick-circle-outlinedark.svg"
+                      alt="Tick"
+                    >
+                    <div class="tick-content">
+                      <p class="large-text">Conversion Ready</p>
+                      <p>A website that is simple to use, that easily connects to social media channels, and works across various platforms.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tick">
+                    <img
+                      src="images/mdi_tick-circle-outlinedark.svg"
+                      alt="Tick"
+                    >
+                    <div class="tick-content">
+                      <p class="large-text">Focused on detail</p>
+                      <p>A website that represents your brand, enabling you to maintain an online presence that is true to who you are and what you stand for.
+                      </p>
+                    </div>
+                  </div>
+                  
+                  <div class="tick">
+                    <img
+                      src="images/mdi_tick-circle-outlinedark.svg"
+                      alt="Tick"
+                    >
+                    <div class="tick-content">
+                      <p class="large-text">Optimized for Brand SEO</p>
+                      <p>Your website will be Google-optimized so that visitors to your site can find your content on search engines.
+                      </p>
+                    </div>
+                  </div>
+                  <div class="tick">
+                    <img
+                      src="images/mdi_tick-circle-outlinedark.svg"
+                      alt="Tick"
+                    >
+                    <div class="tick-content">
+                      <p class="large-text">Professional</p>
+                      <p>Your website will convey to your visitors that you are a credible, qualified, and professional company.
+                      </p>
+                    </div>
+                  </div>
+                  
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--Otpimize-->
+          <section class="optimise reveal">
+            <div class="responsive">
+              <div class="responsive-content flow-content-medium">
+                <div class="responsive-headings">
+                  <p class="subtitle">And a landing page that is fully optimized for:</p>
+                  <h2>Responsiveness</h2>
+                  <div class="underline hidden"></div>
+                </div>
+                <p>Each design is created with responsiveness in mind from the very beginning. Your website will then appear fantastic on any platform or device.
+                </p>
+              </div>
+              <figure class="responsive-img-wrapper">
+                <img src="images/mockup-devices_1x.png" 
+                 
+                  alt="Responsive mockup of amobile, tablet and desktop device" class="responsive-img">
+              </figure>
+            
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--Services-->
+          <section class="services split-column" id="services">
+            <div class="section-headings">
+              <p class="section-subtitle">What I do</p>
+              <div class="heading-wrapper">
+                <h2>My Services</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="services-container">
+              <div class="service split-column">
+                <img src="images/seo.svg" alt="SEO icon" class="services-icon">
+                <h3>Brand SEO</h3>
+                <p>When designing I will keep your brand values, goals and search engine optimization in mind.
+                </p>
+              </div>
+              <div class="service split-column">
+                <img src="images/pen.svg" alt="UI/UX Design icon" class="services-icon">
+                <h3>UI/UX</h3>
+                <p>I apply UX & UI best practices to create a website that is engaging, user-friendly, and effective.</p>
+              </div>
+              <div class="service split-column">
+                <img src="images/computer.svg" alt="Development and design icon" class="services-icon">
+                <h3>Design & Development</h3>
+                <p>
+                  For a more customized approach, I can design and develop landing pages using Figma, HTML, CSS and JavaScript.
+                </p>
+              </div>
+              <div class="service split-column">
+                <img src="images/webflow.svg" alt="Webflow icon" class="services-icon">
+                <h3>Webflow Development</h3>
+                <p>Alternatively I can develop your landing page in Webflow. This way you can customize it on your own if you wish in the future.
+                </p>
+              </div>
+              
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--Portfolio-->
+          <section class="portfolio reveal" id="work">
+            <div class="section-headings">
+              <p class="section-subtitle">My latest work</p>
+              <div class="heading-wrapper">
+                <h2>My Latest Work</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="portfolio-container">
+              <div class="portfolio-item">
+                <figure class="portfolio-img-container">
+                  <img
+                    src="images/accu-port@1x.png"
+                    alt="Accubooks, an HTML template for an accountancy firm"
+                    srcset="images/accu-port@1x.png 1x,
+                    images/accu-port@2x.png 2x,
+                    images/accu-port@3x.png 3x"
+                    class="portfolio-img"
+                  >
+                </figure>
+                <div class="portfolio-info">
+                  <div class="info-heading">
+                    <p class="label-pink">TEMPLATE/CASE STUDY:</p>
+                    <h3>AccuBooks</h3>
+                  </div>
+                  <p>
+                    HTML template for an accountancy firm availble at Gumroad.com
+                  </p>
+                  <small class="portfolio-label">
+                    UI design • UX design • Front-end Development
+                  </small>
+                  <div class="work-btns split">
+                    <a href="accubooks.html">Learn More<i class="bi bi-arrow-right-short"></i></a>
+                    <a href="https://spiffy-elf-a68c35.netlify.app/">See Live<i class="bi bi-arrow-right-short"></i></a>
+                  </div>
+                </div>
+                
+              </div>
+              
+              <div class="portfolio-item">
+                <figure class="portfolio-img-container">
+                  <img
+                    src="images/band-img.jpg"
+                    srcset="images/band-img.jpg 1x,
+                    images/band-img@2x.jpg 2x,
+                    images/band-img@3x.jpg 3x"
+                   alt="Landing page for the band, the Parish Music Box"
+                    class="portfolio-img"
+                  >
+                </figure>
+                <div class="portfolio-info">
+                  <div class="info-heading">
+                    <p class="label-pink">LIVE WEBSITE / CASE STUDY:</p>
+                    <h3>The Parish Music Box</h3>
+                  </div>
+                  <p>Landing page created for the lounge/rock act The Parish
+                    Music Club
+                  </p>
+                  <small class="portfolio-label">
+                    UI design • UX design • Front-end Development
+                  </small>
+                  <div class="work-btns split">
+                    <a href="the-parish-music-box.html">Learn More<i class="bi bi-arrow-right-short"></i></a>
+                    <a href="#">See Live<i class="bi bi-arrow-right-short"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <figure class="portfolio-img-container">
+                  <img
+                    src="screenshots/repo.jpg"
+                    alt="GitHub Repo Gallery"
+                    srcset="screenshots/repo.jpg 1x,
+                    screenshots/repo@2x-min.jpg 2x,
+                    screenshots/repo@3x-min.jpg 3x"
+                    class="portfolio-img"
+                  >
+                </figure>
+                <div class="portfolio-info">
+                  <div class="info-heading">
+                    <p class="label-pink">LIVE WEBSITE:</p>
+                    <h3>GitHub Repo Gallery</h3>
+                  </div>
+                  <p>
+                    A JavaScript project showing a gallery of my repositories from my GitHub portfolio
+                  </p>
+                  <small class="portfolio-label">
+                    API • Front-end Development
+                  </small>
+                  <div class="work-btns split">
+                    <a href="repos.html">Learn More<i class="bi bi-arrow-right-short"></i></a>
+                    <a href="https://anniecat73.github.io/github-repo-gallery/">See Live<i class="bi bi-arrow-right-short"></i></a>
+                  </div>
+                </div>
+              </div>
+              <div class="portfolio-item">
+                <figure class="portfolio-img-container">
+                  <img
+                    src="screenshots/photosnap.jpg"
+                    alt="Photosnap"
+                    srcset="screenshots/photosnap.jpg 1x,
+                    screenshots/photosnap@2x-min.jpg 2x,
+                    screenshots/photosnap@3x-min.jpg 3x"
+                    class="portfolio-img-snap"
+                  >
+                </figure>
+                <div class="portfolio-info">
+                  <div class="info-heading">
+                    <p class="label-pink">LIVE WEBSITE:</p>
+                    <h3>Photosnap</h3>
+                  </div>
+                  <p>
+                    A multi-page website challenge based on a Figma design from Frontend Mentor.
+                  </p>
+                  <small class="portfolio-label">
+                    Figma • Front-end Development
+                  </small>
+                  <a href="https://photosnap.pages.dev/">See Live<i class="bi bi-arrow-right-short"></i></a>
+                </div>
+              </div>
+            </div>
+            <a href="projects.html" class="btn btn-work">Explore More<i class="bi bi-arrow-right-short"></i></a>
+          </section>
+          <div class="divider"></div>
+          <!--Testimonials-->
+          <section class="testimonials">
+            <div class="section-headings">
+              <p class="section-subtitle">What people say</p>
+              <div class="heading-wrapper">
+                <h2>My Testimonials</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="testimonials-container">
+              <div class="testimonial">
+                <p class="testimonial-quote">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit."
+                </p>
+                <div class="testimonial-byline split-column">
+                  <p>Name Surname</p>
+                  <small>Ceo</small>
+                </div>
+              </div>
+              <div class="testimonial">
+                <p class="testimonial-quote">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit."
+                </p>
+                <div class="testimonial-byline split-column">
+                  <p>Name Surname</p>
+                  <small>Ceo</small>
+                </div>
+              </div>
+              <div class="testimonial">
+                <p class="testimonial-quote">
+                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem
+                  ipsum dolor sit amet, consectetur adipiscing elit. Lorem ipsum
+                  dolor sit amet, consectetur adipiscing elit."
+                </p>
+                <div class="testimonial-byline split-column">
+                  <p>Name Surname</p>
+                  <small>Ceo</small>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--Process-->
+          <section class="process reveal">
+            <div class="section-headings">
+              <p class="section-subtitle">How I work</p>
+              <div class="heading-wrapper">
+                <h2>My Process</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="process-container">
+              <div class="process-phase">
+                <p class="phase-number">01</p>
+                <div class="phase-headings">
+                  <p class="process-label">Phase 1</p>
+                  <h3>Discovery Call</h3>
+                </div>
+                <div class="phase-content">
+                  <div class="divider"></div>
+                  <p>I will delve deep into your world to fully comprehend who you are, what your problems are, and who your target market is. This is crucial for creating a landing page that performs well and serves your goals correctly.
+                  </p>
+                </div>
+              </div>
+              <div class="process-phase">
+                <p class="phase-number">02</p>
+                <div class="phase-headings">
+                  <p class="process-label">Phase 2</p>
+                  <h3>Designing your landing page</h3>
+                </div>
+                <div class="phase-content">
+                  <div class="divider"></div>
+                  <p>Using what I have discovered about you, I will develop a landing page that fulfils your specific requirements, accurately represents your brand, and is both aesthetically pleasing and user-friendly for your target audience.
+                  </p>
+                </div>
+              </div>
+              <div class="process-phase">
+                <p class="phase-number">03</p>
+                <div class="phase-headings">
+                  <p class="process-label">Phase 3</p>
+                  <h3>Building your landing page</h3>
+                </div>
+                <div class="phase-content">
+                  <div class="divider"></div>
+                  <p>Once you provide your approval, I will start building the landing page while ensuring that I adhere as closely as possible to current web standards. I want to meet your needs with a high-performing, secure, and dependable solution.
+                  </p>
+                </div>
+              </div>
+              <div class="process-phase">
+                <p class="phase-number">04</p>
+                <div class="phase-headings">
+                  <p class="process-label">Phase 4</p>
+                  <h3>Launching your landing page</h3>
+                </div>
+                <div class="phase-content">
+                  <div class="divider"></div>
+                  <p>After the build is finished and you have approved of the design, the time has come to launch your landing page. I will provide you with training during this phase so you can update your it with new content on your own.</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--About-->
+          <section class="about" id="about">
+            <div class="section-headings">
+              <p class="section-subtitle">Who is Annie</p>
+              <div class="heading-wrapper">
+                <h2>About Me</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="about-content">
+              <div class="about-text flow-content-small">
+                <p>
+                  I am Annie and I design and devlop landing pages. I currently live in London, with my daughter and 2 cats!
+                </p>
+                <p>
+                  Before I entered the world of tech I did a variety of roles,
+                  some of which include running my own business and gaining a
+                  degree in Politics and Development Studies.
+                </p>
+                <p>
+                  When the covid pandemic hit, I had to change careers and I started to learn to code and design. 
+                  I found that I enjoyed crafting high-converting, beautiful and user-friendly landing pages. 
+                </p>
+                <p>It was a challenging time but my motto is:
+                   If there is something I don’t know, I learn it. If I have a problem, I'll figure out a solution! 
+                </p>
+              </div>
+              <figure class="about-img split-column">
+                <img
+                  src="images/meandnelson1.jpg"
+                  srcset="images/meandnelson1.jpg,
+                  images/meandnelson1@2x.jpg 2x,
+                  images/meandnelson1@3x.jpg 3x"
+                  alt="Me and my olderst cat, Nelson"
+                >
+                <figcaption>Me and my oldest cat, Nelson</figcaption>
+              </figure>
+            </div>
+          </section>
+          <div class="divider"></div>
+          <!--FAQ-->
+          <section class="faq reveal">
+            <div class="section-headings">
+              <p class="section-subtitle">FAQ Section</p>
+              <div class="heading-wrapper">
+                <h2>Frequently Asked Questions</h2>
+                <div class="underline hidden"></div>
+              </div>
+            </div>
+            <div class="faq-content">
+              <p>Here are some of the most frequently asked questions I get. Feel free to contact me on 07962 344 427 if you can't find the answer you are looking for. You can also contact me <a href="contact.html">here</a>. 
+              </p>
+              <div class="faq-container">
+                <div class="faq-drawer">
+                  <input
+                    class="faq-drawer-trigger"
+                    id="faq-drawer"
+                    type="checkbox"
+                  ><label class="faq-drawer-title" for="faq-drawer"
+                    >Do we require a face-to-face meeting before the project starts?</label
+                  >
+                  <div class="faq-drawer-wrapper">
+                    <div class="faq-drawer-content">
+                      <p>I am always happy to meet up with local clients, but for remote clients, I can communicate via phone or Skype to discuss project details at a convenient time for you.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-drawer">
+                  <input
+                    class="faq-drawer-trigger"
+                    id="faq-drawer-2"
+                    type="checkbox"
+                  ><label class="faq-drawer-title" for="faq-drawer-2"
+                    >What is the price of a landing page?</label
+                  >
+                  <div class="faq-drawer-wrapper">
+                    <div class="faq-drawer-content">
+                      <p>
+                        Cost estimates are difficult to make before I fully comprehend your requirements. I will provide you a detailed, no-obligation price after learning about your needs so you are fully aware of what you will be paying for.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-drawer">
+                  <input
+                    class="faq-drawer-trigger"
+                    id="faq-drawer-3"
+                    type="checkbox"
+                  ><label class="faq-drawer-title" for="faq-drawer-3"
+                    >How long would it take to develop my landing page?</label
+                  >
+                  <div class="faq-drawer-wrapper">
+                    <div class="faq-drawer-content">
+                      <p>Your needs will determine the timeline. A project may last from a few weeks to several months. I'll give you a projected completion date after reviewing your project.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-drawer">
+                  <input
+                    class="faq-drawer-trigger"
+                    id="faq-drawer-4"
+                    type="checkbox"
+                  ><label class="faq-drawer-title" for="faq-drawer-4"
+                    >Which types of businesses do you work with?</label
+                  >
+                  <div class="faq-drawer-wrapper">
+                    <div class="faq-drawer-content">
+                      <p>Whether you are a small business or a large company, I provide the same great level of service and support to all of my clients.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                <div class="faq-drawer">
+                  <input
+                    class="faq-drawer-trigger"
+                    id="faq-drawer-5"
+                    type="checkbox"
+                  ><label class="faq-drawer-title" for="faq-drawer-5"
+                    >Can you keep my landing page updated?</label
+                  >
+                  <div class="faq-drawer-wrapper">
+                    <div class="faq-drawer-content">
+                      <p>My most in-demand service is maintenance. I provide a maintenance service where I take care of it for you because I realise that not all businesses have the time to update their landing pages.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+                
+                <!--Empty as used to create border bottom only-->
+                <div class="faq-drawer">
+                  <label
+                    class="faq-drawer-title last"
+                  ></label>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!--CTA-large-->
+          <section class="cta-large">
+            <div class="divider-cta reveal"></div>
+            <div class="cta-content-wrapper">
+              <div class="section-headings">
+                <p class="section-subtitle">Need a high-converting website?
+                </p>
+                <div class="heading-wrapper split-column">
+                  <h2>Book a FREE call</h2>
+                  <div class="underline hidden"></div>
+                </div>
+              </div>
+              <div class="cta-container split-column">
+                <div class="cta-text flow-content-small">
+                  <p>You can schedule a call with me at a time that works for you.  I will provide you with constructive advice  you can put into practice right away.</p> 
+                  <p>If we are a good fit then we will talk about it further. And if not I will point you in the right 
+                  direction and and we will say our goodbyes.</p>
+                  <p>This is a no-obligation 15-minute strategy call. Book it by clicking the link below.</p>
+                </div>
+                <a class="btn btn-primary btn-large hidden" href="contact.html">Book a free call</a>
+              </div> 
+            </div>
+            <div class="divider"></div>
+          </section>
+        </div>
+      </main>
+      <footer>
+        <div class="footer-content">
+          <p><span class="copy">&#169;</span> 2023 / Designed & developed by
+            Annie Indreiten</p>
+        </div>
+      </footer>
+    </div>
+
+    <script src="/js/script.js"></script>
+    <script src="/js/scroll.js"></script>
+  </body>
+</html>
